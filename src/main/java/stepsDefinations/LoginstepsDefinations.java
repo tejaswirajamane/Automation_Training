@@ -21,6 +21,7 @@ public class LoginstepsDefinations {
 		 driver.manage().window().maximize();
 		 driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.get("http://www.phptravels.net/admin	");
+		System.out.println("User is already on login page");
 		   
 	}
 
